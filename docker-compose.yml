@@ -1,0 +1,8 @@
+services:
+  backend:
+    container_name: backend-auth
+    build:
+      context: .
+    ports:
+      - "5000:5000"
+    restart: always
